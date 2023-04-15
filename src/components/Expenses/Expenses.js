@@ -31,7 +31,7 @@ const Expenses=(props)=>{
           amount={expense.amount} 
           date={expense.date}
       />
-    )) ; expensesContent=<p>Only single expense found.Please add more...</p>
+    ) , expensesContent=<p>Only single expense found.Please add more...</p>);
   }
   return(
     <div>
